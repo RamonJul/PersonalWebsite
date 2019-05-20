@@ -1,0 +1,16 @@
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    height: auto;
+    margin: auto;
+    width: 70%;
+    background-color: #353535;
+    -webkit-box-shadow: 14px 1px 5px 0px rgba(28,26,26,1);
+    -moz-box-shadow: 14px 1px 5px 0px rgba(28,26,26,1);
+    box-shadow: 14px 1px 5px 0px rgba(28,26,26,1);
+}
+.card{
+    flex-wrap: wrap;
+}

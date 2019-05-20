@@ -1,0 +1,57 @@
+.project{
+    margin: 10px;
+    background-color: transparent;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+.card-title{
+    position: absolute;
+    width: 100%;
+    top:70%;
+    text-align: center;
+}
+
+
+
+/* modals */
+.modal,.close{
+    color: #EB6864;
+}
+
+.modalBody,.footer,.header{
+    background-color: #353535
+}   
+.modalBody{
+    padding: 0 !important;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+
+}
+.technology,.links{
+    display: inline;
+}
+.linkList{
+    position: absolute;
+    width: 100%;
+    top:70%;
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+.technologies{
+    width: 100%;
+}
+.technology{
+    margin: 0 2%;
+}
+
+ul{
+    padding: 0;
+    text-align: center;
+}
