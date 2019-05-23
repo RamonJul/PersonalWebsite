@@ -22,7 +22,7 @@ class ProjectCard extends Component{
                 <div className="card " >
                    
                     <div className="card-body">
-                    <img src={this.props.image} className="card-img-top" alt="..."/>
+                    <img src={this.props.thumbnail} className="card-img-top" alt="..."/>
                     <h5 className="card-title">{this.props.name}</h5>
                     </div>
                 </div>
@@ -33,19 +33,20 @@ class ProjectCard extends Component{
                 </Modal.Header>   
                 <Modal.Body className="modalBody">
                 <img src={this.props.image} className="card-img-top" alt="..."/>
-                <ul className="linkList">
-                    <li className="links"><a  href={this.props.GitHub} className="btn">GitHub</a></li>
-                    <li className="links"><a href={this.props.Site} className="btn">Site</a></li>
-                    </ul>
+               
                 </Modal.Body>
                 <Modal.Footer className='footer'>
                     <p className="description">{this.props.description}</p>
                     <p>Technologies:</p>
                 
                     <ul className="technologies">
-                    {this.props.technologies.map(element=>(
-                            <li className="technology">{element}</li>
+                    {this.props.technologies.map((element,index)=>(
+                            <li key={index}className="technology">{element}</li>
                     ))}
+                    </ul>
+                    <ul className="linkList">
+                    <li className="links"><a  href={this.props.GitHub} className="btn">GitHub</a></li>
+                    <li className="links"><a href={this.props.Site} className="btn">Site</a></li>
                     </ul>
                     
                 </Modal.Footer>

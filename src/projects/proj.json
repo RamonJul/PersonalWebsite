@@ -2,7 +2,8 @@
     {
         "id":1,
         "name":"Read@",
-        "image":"https://via.placeholder.com/150",
+        "image":"https://res.cloudinary.com/daawmv4sy/image/upload/v1558570380/portfolio/read.png",
+        "thumbnail":"https://res.cloudinary.com/daawmv4sy/image/upload/c_thumb,h_150,w_266,g_face/v1558570380/portfolio/read.png",
         "description":"An online forum app catered for developers ",
         "technologies":["JavaScript","React","React-Router","MySql","Passport"],
         "Site":"https://fathomless-inlet-59388.herokuapp.com/",
@@ -12,7 +13,8 @@
     {
         "id":2,
         "name":"Book Search",
-        "image":"https://via.placeholder.com/150",
+        "image":"https://res.cloudinary.com/daawmv4sy/image/upload/v1558570119/portfolio/bookSearch.png",
+        "thumbnail":"https://res.cloudinary.com/daawmv4sy/image/upload/c_thumb,h_150,w_266,g_face/v1558570119/portfolio/bookSearch.png",
         "description":"A book search application that uses the Google API ",
         "technologies":["JavaScript","React","React-Router","Mongoose","Google Books API"],
         "Site":"https://fierce-coast-28479.herokuapp.com",
@@ -22,7 +24,8 @@
     {
         "id":3,
         "name":"Memory Game",
-        "image":"https://via.placeholder.com/150",
+        "image":"https://res.cloudinary.com/daawmv4sy/image/upload/v1558560665/portfolio/lotr.png",
+        "thumbnail":"http://res.cloudinary.com/daawmv4sy/image/upload/c_thumb,h_150,w_266,g_face/v1558560665/portfolio/lotr.png",
         "description":"A memory card game with a Lord of the Rings theme",
         "technologies":["JavaScript","React"],
         "Site":"https://ramonjul.github.io/Clicky/",
@@ -33,7 +36,8 @@
     {
         "id":4,
         "name":"Event Search",
-        "image":"https://via.placeholder.com/150",
+        "image":"https://res.cloudinary.com/daawmv4sy/image/upload/v1558569699/portfolio/event.png",
+        "thumbnail":"https://res.cloudinary.com/daawmv4sy/image/upload/c_thumb,h_150,w_266,g_face/v1558569699/portfolio/event.png",
         "description":"An event search app displaying ticket prices in the currency of their choice",
         "technologies":["JavaScript","HTML5","Firebase","TicketMaster Api","Flexdatalist"],
         "Site":":https://ramonjul.github.io/Event-Search/",
@@ -43,7 +47,8 @@
     {
         "id":5,
         "name":"Gif Search",
-        "image":"https://via.placeholder.com/150",
+        "image":"https://res.cloudinary.com/daawmv4sy/image/upload/v1558560131/portfolio/clicky.jpg",
+        "thumbnail":"https://res.cloudinary.com/daawmv4sy/image/upload/c_thumb,h_150,w_266,x_0/v1558560131/portfolio/clicky.jpg",
         "description":"A GIF search app.",
         "technologies":["JavaScript","HTML5","Giphy Api"],
         "Site":"https://ramonjul.github.io/GifTastic/",

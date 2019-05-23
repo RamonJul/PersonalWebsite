@@ -15,7 +15,8 @@ class Proj extends Component{
                         <Card
                          key={element.id} 
                          name={element.name}
-                         image={element.image} 
+                         image={element.image}
+                         thumbnail={element.thumbnail} 
                          description={element.description}
                          technologies={element.technologies} 
                          Site={element.Site}
