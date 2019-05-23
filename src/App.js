@@ -14,6 +14,7 @@ function App() {
       <div className="row" id="mainRow">
       <SideBar/>
       <Route exact path="/" component={Home}/>
+      <Route exact path="/PersonalWebsite/" component={Home}/>
       <Route exact path="/about" component={About}/>
       <Route exact path="/projects"component={Project}/>
       <Route exact path="/contact"component={Contact}/>
