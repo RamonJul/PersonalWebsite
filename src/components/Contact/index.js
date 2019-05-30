@@ -12,7 +12,7 @@ class Contact extends Component{
                     <li>Email: ramoncarlojulian@gmail.com</li>
                     <ul></ul>
                     <li>Phone: (289)-981-1380</li> 
-                    <li className="links"><a href="linkedin.com/in/ramon-julian-95613a134">LinkedIn</a></li>
+                    <li className="links"><a href="https://linkedin.com/in/ramon-julian-95613a134">LinkedIn</a></li>
                     <li className="links"><a href="https://github.com/RamonJul">GitHub</a></li>
                 </ul>
              </div>

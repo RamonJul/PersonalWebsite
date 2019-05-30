@@ -6,13 +6,32 @@
     align-items: center;
     background-color: #353535;
     -webkit-box-shadow: 10px 0px 5px 0px #1C1A1A;
--moz-box-shadow: 10px 0px 5px 0px #1C1A1A;
-box-shadow: 10px 0px 5px 0px #1C1A1A;
-
+    -moz-box-shadow: 10px 0px 5px 0px #1C1A1A;
+    box-shadow: 10px 0px 5px 0px #1C1A1A;
+    position: fixed;
+    left:0;
+    height: 100%;
+    z-index: 1;
 }
 
 #options{
     display: block;
     list-style: none;
     margin: auto;
+    
 }
+
+
+@media (max-width: 575.98px) { 
+
+    #sideBar{
+        width: 100%;    
+        max-width: 100%; 
+        position: fixed;
+        top: 0;
+        height: auto;
+    }
+    #options li{
+        display: inline-block;
+    }
+   }

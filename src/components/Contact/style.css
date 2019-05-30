@@ -44,9 +44,15 @@
     margin-bottom: 5%;
     width: 50%;
     text-align: center;
-}
-
-#form{
     background-color:#353535; 
     color: #EB6864; 
 }
+
+
+
+@media (max-width:992px) { 
+
+        #ContactForm{
+            width: 80%;
+        }
+     }

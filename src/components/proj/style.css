@@ -59,3 +59,15 @@ ul{
     padding: 0;
     text-align: center;
 }
+
+
+
+@media (max-width: 991.98px) { 
+    .card {
+        margin: auto;
+    }
+   .card-img-top{
+       width: auto !important;
+   }
+    
+   }

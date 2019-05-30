@@ -4,7 +4,7 @@ class Main extends Component{
 
     render(){
         return(
-            <div id="mainBar"className="col-9">
+            <div id="mainBar"className="col-10">
 
             {this.props.children}
                 </div>

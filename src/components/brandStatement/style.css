@@ -17,4 +17,20 @@
 -moz-border-radius: 17px 17px 17px 17px;
 -webkit-border-radius: 17px 17px 17px 17px;
 border: 0px solid #000000;
+margin: auto;
 }
+
+@media (max-width:1290px) { 
+
+    #headshot{
+      margin-left: 5%;
+    }
+     }
+@media (max-width:992px) { 
+
+    #headshot{
+      height: auto;
+      margin-top: 10%;
+      margin-left: auto;
+    }
+     }

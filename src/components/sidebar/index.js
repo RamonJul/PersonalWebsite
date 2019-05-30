@@ -8,27 +8,33 @@ class SideBar extends Component{
             <div id="sideBar" className="col-2" > 
                 <ul id="options">
 
-                     <Link to="/" className={window.location.pathname==="/"?"nav-link active" : "nav-link" }>
-                        <li id="About">
-                        <p href="">Home</p>  
+                        <li className="link">
+                        <Link to="/" className={window.location.pathname==="/"?"nav-link active" : "nav-link" }>
+                        <p>Home</p>  
+                        </Link>   
                         </li>
-                    </Link>   
-                    <Link to="/about" className={window.location.pathname==="/about"?"nav-link active" : "nav-link" }>
-                        <li id="About">
-                        <p href="">About</p>  
+                    
+                  
+                        <li className="link">
+                        <Link to="/about" className={window.location.pathname==="/about"?"nav-link active" : "nav-link" }>
+                        <p>About</p>  
+                        </Link> 
                         </li>
-                    </Link> 
-                    <Link to="/projects" className={window.location.pathname==="/projects"?"nav-link active" : "nav-link" }>
-                    <li>
-                        <p href="">Projects</p>
-
-                    </li>
-                    </Link> 
+                 
+                  
+                        <li className="link"> 
+                         <Link to="/projects" className={window.location.pathname==="/projects"?"nav-link active" : "nav-link" }>
+                        <p>Projects</p>
+                        </Link> 
+                        </li>
+                
+                    <li className="link">
+                        
                     <Link to="/contact" className={window.location.pathname==="/contact"?"nav-link active" : "nav-link" }>
-                    <li>
-                        <p href="">Contact</p> 
+                        <p>Contact</p> 
+                        </Link> 
                     </li>
-                    </Link> 
+                   
               
                    
 
